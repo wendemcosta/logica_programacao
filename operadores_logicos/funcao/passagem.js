@@ -6,9 +6,16 @@ var valor = 10;
 console.log(dobrar(valor)); // 20 
 console.log(valor);//10*/
 
-function saudacao(nome = "visitante") {
+/*function saudacao(nome = "visitante") {
+
    console.log(`olá, ${nome}!`);
 } 
 saudacao();//olá,visitante!
-saudacao("wendem"); //olá, wendem!
+saudacao("wendem"); //olá, wendem!*/
 
+function additem(liste) {
+  liste.push("novo item");
+}
+let itens = ["item 1", "item 2"];
+additem(itens); 
+console.log(itens);
