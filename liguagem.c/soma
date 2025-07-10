@@ -1,0 +1,26 @@
+#include<stdio.h>// Online C compiler to run C program online
+
+int main(){
+    int a,b, soma,mult,divi;
+    float sub;
+    
+printf("digite seu valor a:");
+scanf("%d",&a);
+
+printf("digite seu valor b:");
+scanf("%d",&b);
+
+soma=a+b;
+sub=a-b;
+mult=a*b;
+divi=a/b;
+
+printf("\nSoma de a+b; %d\n",soma);
+printf("\nSubtracao de a-b; %.1f\n",sub);
+printf("\nMultiplicacao de a*b; %d\n",mult);
+printf("\nDivisao de a/b; %d",divi);
+
+
+
+    return 0;
+}

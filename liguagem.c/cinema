@@ -1,0 +1,34 @@
+#include <stdio.h>
+//#include <stdbool.h>
+
+    int main () {
+        
+     int idade;
+     int  ingresso ;
+ 
+
+printf("digite sua idade:");
+scanf("%d",&idade);
+ 
+ if(idade >14){
+    printf("sua idade é permitida:\n");
+}
+else{
+printf("voce nao tem idade permitida;\n");
+}
+
+printf("voce possui ingresso\n: digite 1 para sim,digite 0 para nao: ");
+scanf("%e",&ingresso);
+ 
+if(ingresso){
+    printf("voce pode entrar!\n");
+}
+else{
+printf(" voce nao pode entrar!\n");
+}
+
+
+return 0;
+
+ }
+
